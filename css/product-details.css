@@ -139,6 +139,7 @@ img {
    border-top: 1px solid #e5e5e5;
 }
 .seller-infor h4{
+   margin: 0.2rem 0 0 0;
    text-transform: capitalize;
    color: #12263a;
    padding-bottom: 0.3rem;
@@ -151,10 +152,10 @@ img {
 
 .wrap-social-link {
    display: block;
-   padding-top: 1rem;
    border-top: 1px solid #e5e5e5;
 }
-.wrap-social-link h5{
+.wrap-social-link h4{
+   margin: 0.2rem 0 0 0;
    text-transform: capitalize;
    color: #12263a;
    padding-bottom: 0.3rem;
@@ -187,7 +188,7 @@ img {
       grid-gap: 1.5rem;
    }
    .wrap-product-detail {
-      height: 100vh;
+      height: 90vh;
       display: flex;
       justify-content: center;
       align-items: center;
