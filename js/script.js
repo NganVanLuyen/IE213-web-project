@@ -1,3 +1,7 @@
+setTimeout(function(){
+   $('.wrap-loader').fadeToggle();
+},1800);
+
 const menuBtn = document.querySelector(".menu-icon span");
 const searchBtn = document.querySelector(".search-icon");
 const cancelBtn = document.querySelector(".cancel-icon");
