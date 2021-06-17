@@ -10,6 +10,7 @@ body {
 }
 
 .wrap-product-detail {
+   display: inline-block;
    max-width: 1150px;
    margin: 10px auto;
    background-color: #fff;

@@ -1,6 +1,6 @@
-setTimeout(function(){
+setTimeout(function () {
    $('.wrap-loader').fadeToggle();
-},1800);
+}, 1800);
 
 const menuBtn = document.querySelector(".menu-icon span");
 const searchBtn = document.querySelector(".search-icon");
@@ -29,3 +29,5 @@ searchBtn.onclick = () => {
    searchBtn.classList.add("hide");
    cancelBtn.classList.add("show");
 }
+
+
