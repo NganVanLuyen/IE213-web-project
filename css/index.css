@@ -12,14 +12,15 @@ body {
 ul{
    list-style: none;
 }
-a{
+
+a {
    text-decoration: none;
 }
 .wrap-content {
    max-width: 1150px;
    margin: 10px auto;
    /* background-color: #fff; */
-   border: 1px solid #e5e5e5;
+   /* border: 1px solid #e5e5e5; */
 }
 
 /* full-slider */
@@ -79,6 +80,7 @@ a{
 }
 .wrap-slide {
    background-color: white;
+   border: 1px solid #e5e5e5;
 }
 
 /* slide catagory */
@@ -97,7 +99,7 @@ a{
 }
 
 .site-slider-two .catagory {
-   height: 20rem;
+   height: 18rem;
    position: relative;
    overflow: hidden;
 }
@@ -108,7 +110,8 @@ a{
 }
 
 .site-btn.btn-span {
-   padding: 0.8rem 1.9rem;
+   font-size: 1rem;
+   padding: 0.8rem 1rem;
    border-radius: 4rem;
    border: 1px solid #FF5733;
    background-color: white;
@@ -121,12 +124,14 @@ a{
 .wrap-category {
    margin-top: 1.5rem;
    background-color: white;
+   border: 1px solid #e5e5e5;
 }
 
 /* product */
 .wrap-post {
    margin-top: 1.5rem;
    background-color: white;
+   border: 1px solid #e5e5e5;
 }
 
 .wrap-post h4 {
@@ -137,3 +142,15 @@ a{
    margin-bottom: 0;
    margin-top: 1.2rem;
 }
+
+
+/* .wrap-post h3 {
+   font-size: 0.9rem;
+   font-weight: 700;
+   text-transform: capitalize;
+   color: #12263a;
+   margin-bottom: 0;
+   margin-top: 1.2rem;
+} */
+
+
