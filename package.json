@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NganVanLuyen/IE213-web-project/issues"
   },
-  "homepage": "https://github.com/NganVanLuyen/IE213-web-project#readme"
+  "homepage": "https://github.com/NganVanLuyen/IE213-web-project#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
