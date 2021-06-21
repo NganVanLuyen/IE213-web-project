@@ -17,3 +17,22 @@ function slideImage() {
 }
 
 window.addEventListener('resize', slideImage);
+
+
+// slider
+// $('.img-showcase').slick({
+//    slidesToShow: 1,
+//    slidesToScroll: 1,
+//    arrows: false,
+//    fade: true,
+//    asNavFor: '.img-select'
+//  });
+//  $('.img-select').slick({
+//    slidesToShow: 3,
+//    slidesToScroll: 1,
+//    asNavFor: '.img-showcase',
+//    dots: true,
+//    centerMode: true,
+//    focusOnSelect: true
+//  });
+          

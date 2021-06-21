@@ -95,12 +95,12 @@ ul{
    font-weight: 700;
    text-transform: capitalize;
    color: #12263a;
-   margin-bottom: 0;
-   margin-top: 1rem;
+   margin-bottom: 0.2rem;
+   margin-top: 0.5rem;
 }
 
 .site-slider-two .catagory {
-   height: 18rem;
+   height: 15rem;
    position: relative;
    overflow: hidden;
 }
@@ -108,6 +108,8 @@ ul{
 .site-slider-two .catagory img{
    height: 85%;
    margin: 0 1rem;
+   box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.15);
+   border-radius: 1rem;
    /* border-radius: 1rem; */
 }
 
@@ -140,8 +142,9 @@ ul{
    font-weight: 700;
    text-transform: capitalize;
    color: #12263a;
-   margin: 1rem 0 1.5rem 1.5rem;
+   margin: 0.5rem 0 0.7rem 1.5rem;
 }
+
 
 .product {
    height: auto;
@@ -169,7 +172,7 @@ ul{
 }
 
 .product-footer {
-   padding: 2rem 1.6rem 1.6rem 1.6 rem;
+   padding: 0 0 0.7rem 0;
 }
 
 .product-footer h5 {
@@ -199,7 +202,7 @@ ul{
    height: 100%;
    left: 0;
    top: 0;
-   border-radius: 1rem 1rem 0 0;
+   border-radius: 0.5rem;
    background-color: rgba(0,0,0,0.15);
    z-index: 1;
    transition: all 500ms ease-in-out;
@@ -207,7 +210,7 @@ ul{
 
 .product-header .icons {
    position: absolute;
-   top: 30%;
+   top: 35%;
    right: 5%;
    transform: translate(0, -50%) scale(0);
    z-index: 2;
@@ -219,7 +222,7 @@ ul{
    font-size: 1rem;
    display: block;
    border-radius: 50%;
-   padding: 0.8rem 0.9rem;
+   padding: 0.7rem 0.8rem;
    cursor: pointer;
    transition: all 300ms ease-in-out;
 }
@@ -229,7 +232,7 @@ ul{
 }
 
 .product-header .icons span:not(:last-child) {
-   margin-bottom: 0.5rem;
+   margin-bottom: 0.2rem;
 }
 
 .product-header .icons span:hover {
